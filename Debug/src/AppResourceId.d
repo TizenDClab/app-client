@@ -1,4 +1,4 @@
 src/AppResourceId.d: ../src/AppResourceId.cpp \
-  C:\Users\yeji\workspace\Basic\inc\AppResourceId.h
+  C:\Users\yeji\Desktop\Basic\ (2)\inc\AppResourceId.h
 
-C:\Users\yeji\workspace\Basic\inc\AppResourceId.h:
+C:\Users\yeji\Desktop\Basic\ (2)\inc\AppResourceId.h:

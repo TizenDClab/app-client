@@ -257,7 +257,7 @@ src/ImagePanel.d: ../src/ImagePanel.cpp \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp/FMediaVideoRecorder.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FMediaVideoRecorderTypes.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FMediaIVideoRecorderEventListener.h \
-  C:\Users\yeji\workspace\Basic\inc\ImagePanel.h \
+  C:\Users\yeji\Desktop\Basic\ (2)\inc\ImagePanel.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUi.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUiAccessibilityContainer.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUiAccessibilityTypes.h \
@@ -1057,7 +1057,7 @@ C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FMediaIVideoRecorderEventListener.h:
 
-C:\Users\yeji\workspace\Basic\inc\ImagePanel.h:
+C:\Users\yeji\Desktop\Basic\ (2)\inc\ImagePanel.h:
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUi.h:
 

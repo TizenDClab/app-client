@@ -151,8 +151,8 @@ src/MainForm.d: ../src/MainForm.cpp \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FAppPkgIPackageUninstallationResponseListener.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FAppPkgPackageInfo.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FAppPkgPackageAppInfo.h \
-  C:\Users\yeji\workspace\Basic\inc\AppResourceId.h \
-  C:\Users\yeji\workspace\Basic\inc\ImagePanel.h \
+  C:\Users\yeji\Desktop\Basic\ (2)\inc\AppResourceId.h \
+  C:\Users\yeji\Desktop\Basic\ (2)\inc\ImagePanel.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FIo.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FIoFile.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FIoFileAttributes.h \
@@ -541,7 +541,7 @@ src/MainForm.d: ../src/MainForm.cpp \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp/FMediaVideoRecorder.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FMediaVideoRecorderTypes.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FMediaIVideoRecorderEventListener.h \
-  C:\Users\yeji\workspace\Basic\inc\MainForm.h
+  C:\Users\yeji\Desktop\Basic\ (2)\inc\MainForm.h
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FApp.h:
 
@@ -847,9 +847,9 @@ C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FAppPkgPackageAppInfo.h:
 
-C:\Users\yeji\workspace\Basic\inc\AppResourceId.h:
+C:\Users\yeji\Desktop\Basic\ (2)\inc\AppResourceId.h:
 
-C:\Users\yeji\workspace\Basic\inc\ImagePanel.h:
+C:\Users\yeji\Desktop\Basic\ (2)\inc\ImagePanel.h:
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FIo.h:
 
@@ -1627,4 +1627,4 @@ C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FMediaIVideoRecorderEventListener.h:
 
-C:\Users\yeji\workspace\Basic\inc\MainForm.h:
+C:\Users\yeji\Desktop\Basic\ (2)\inc\MainForm.h:

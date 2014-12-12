@@ -44,10 +44,9 @@ private:
 	Tizen::Base::Runtime::Timer timer;
 	Tizen::Media::Image image;
 	Tizen::Io::DirEnumerator *pDirEnum;
-	Tizen::Io::File outfile;
 	int fidx;
 	int cidx;
-	Tizen::Base::Collection::ArrayList *flist;
+	Tizen::Base::Collection::ArrayList filelist;
 };
 
 #endif

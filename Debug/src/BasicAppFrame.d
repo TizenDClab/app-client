@@ -1,5 +1,5 @@
 src/BasicAppFrame.d: ../src/BasicAppFrame.cpp \
-  C:\Users\yeji\workspace\Basic\inc\BasicAppFrame.h \
+  C:\Users\yeji\Desktop\Basic\ (2)\inc\BasicAppFrame.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FBase.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FBaseTypes.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FBaseLog.h \
@@ -416,9 +416,9 @@ src/BasicAppFrame.d: ../src/BasicAppFrame.cpp \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUiVerticalBoxLayout.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUiTouchEffect.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUiTouchEffectTypes.h \
-  C:\Users\yeji\workspace\Basic\inc\MainForm.h
+  C:\Users\yeji\Desktop\Basic\ (2)\inc\MainForm.h
 
-C:\Users\yeji\workspace\Basic\inc\BasicAppFrame.h:
+C:\Users\yeji\Desktop\Basic\ (2)\inc\BasicAppFrame.h:
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FBase.h:
 
@@ -1252,4 +1252,4 @@ C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUiTouchEffectTypes.h:
 
-C:\Users\yeji\workspace\Basic\inc\MainForm.h:
+C:\Users\yeji\Desktop\Basic\ (2)\inc\MainForm.h:

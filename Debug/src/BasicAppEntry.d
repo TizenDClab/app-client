@@ -1,5 +1,5 @@
 src/BasicAppEntry.d: ../src/BasicAppEntry.cpp \
-  C:\Users\yeji\workspace\Basic\inc\BasicApp.h \
+  C:\Users\yeji\Desktop\Basic\ (2)\inc\BasicApp.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FApp.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FAppTypes.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FBaseString.h \
@@ -172,7 +172,7 @@ src/BasicAppEntry.d: ../src/BasicAppEntry.cpp \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FSysIDeviceEventListener.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FSysEnvironment.h
 
-C:\Users\yeji\workspace\Basic\inc\BasicApp.h:
+C:\Users\yeji\Desktop\Basic\ (2)\inc\BasicApp.h:
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FApp.h:
 

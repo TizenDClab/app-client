@@ -31,7 +31,7 @@ using namespace Tizen::Base::Collection;
 
 
 ImagePanel::ImagePanel(void)
-	: __pTizenBitmap(null)
+   : __pTizenBitmap(null)
 {
 }
 
@@ -42,92 +42,78 @@ ImagePanel::~ImagePanel(void)
 result
 ImagePanel::Initialize(Tizen::Graphics::Rectangle rect)
 {
-	timer.Construct(*this);
+   timer.Construct(*this);
+   filelist.Construct();
 
-	return Panel::Construct(rect);
+   return Panel::Construct(rect);
 }
 
 result
 ImagePanel::OnInitializing(void)
 {
-	result r = image.Construct();
-	Directory dir;
-	ArrayList filelist(SingleObjectDeleter);
+   result r = image.Construct();
+   Directory dir;
 
-	dir.Construct(App::GetInstance()->GetAppDataPath());
-	outfile.Construct(L"/tmp/list.txt", L"w");
+   dir.Construct(App::GetInstance()->GetAppDataPath());
+   File outfile;
+   outfile.Construct(L"/tmp/my_filename.txt", L"w");
 
-	pDirEnum = dir.ReadN();
-	filelist.Construct();
-	while(pDirEnum->MoveNext() == E_SUCCESS) {
-		DirEntry cur = pDirEnum->GetCurrentDirEntry();
-		if(cur.IsDirectory() == true || cur.GetName().Contains(".jpg") == false)
-			continue;
-		filelist.Add(pDirEnum->GetCurrent());
-	}
-	fidx = filelist.GetCount();
-	cidx = 0;
-	//filelist.Sort(StringComparer());
+   pDirEnum = dir.ReadN();
+   while(pDirEnum->MoveNext() == E_SUCCESS) {
+      DirEntry cur = pDirEnum->GetCurrentDirEntry();
+      if(cur.IsDirectory() == true || cur.GetName().Contains(".jpg") == false)
+         continue;
+      filelist.Add(new String(cur.GetName()));
+   }
+   fidx = filelist.GetCount();
+   cidx = 0;
+   filelist.Sort(StringComparer());
 
-	flist = &filelist;
-
-	DirEntry* cur = static_cast<DirEntry*>(filelist.GetAt(cidx++));
-	String path(App::GetInstance()->GetAppDataPath() + cur->GetName());
-	__pTizenBitmap = image.DecodeN(path, BITMAP_PIXEL_FORMAT_ARGB8888);
-	outfile.Write(path + L"\n");
-
-	Draw();
-	timer.Start(5000);
-	return r;
+   String* cur = static_cast<String*>(filelist.GetAt(cidx++));
+   String path(App::GetInstance()->GetAppDataPath() + *cur);
+   __pTizenBitmap = image.DecodeN(path, BITMAP_PIXEL_FORMAT_ARGB8888);
+   outfile.Write(path + L"\n");
+   Draw();
+   timer.Start(5000);
+   return r;
 }
 
 result
 ImagePanel::OnTerminating(void)
 {
-	result r = E_SUCCESS;
+   result r = E_SUCCESS;
 
-	delete __pTizenBitmap;
-	return r;
+   delete __pTizenBitmap;
+   return r;
 }
 
 result
 ImagePanel::OnDraw(void)
 {
-	result r = E_SUCCESS;
+   result r = E_SUCCESS;
 
-	Canvas* pCanvas = GetCanvasN();
+   Canvas* pCanvas = GetCanvasN();
 
-	if (pCanvas != null && __pTizenBitmap != null)
-	{
-		Rectangle rect = GetBounds();
+   if (pCanvas != null && __pTizenBitmap != null)
+      r = pCanvas->DrawBitmap(Rectangle(0, 0, __pTizenBitmap->GetWidth(), __pTizenBitmap->GetHeight()), *__pTizenBitmap);
 
-		float widthRatio = float(rect.width) / __pTizenBitmap->GetWidth();
-		float heightRatio = float(rect.height) / __pTizenBitmap->GetHeight();
-		float ratio = (widthRatio > heightRatio) ? heightRatio : widthRatio;
+   delete pCanvas;
 
-		int height = int(__pTizenBitmap->GetHeight() * ratio);
-		int width = int(__pTizenBitmap->GetWidth() * ratio);
-
-		r = pCanvas->DrawBitmap(Rectangle((rect.width - width) / 2, (rect.height - height) / 2, width, height), *__pTizenBitmap);
-	}
-
-	delete pCanvas;
-
-	return r;
+   return r;
 }
 
 void
 ImagePanel::OnTimerExpired(Timer& timer)
 {
-	if(cidx < fidx) {
-		DirEntry* cur = static_cast<DirEntry*>(flist->GetAt(cidx++));
-		String path(App::GetInstance()->GetAppDataPath() + cur->GetName());
-		__pTizenBitmap = image.DecodeN(path, BITMAP_PIXEL_FORMAT_ARGB8888);
-		outfile.Write(path + L"\n");
-		timer.Start(5000);
-	} else {
-		outfile.Flush();
-	}
-	Draw();
-
+   File outfile;
+   outfile.Construct(L"/tmp/my_filename.txt", L"w");
+   if(cidx >= fidx) {
+      cidx = 0;
+   }
+   String* cur = static_cast<String*>(filelist.GetAt(cidx++));
+   String path(App::GetInstance()->GetAppDataPath() + *cur);
+   __pTizenBitmap = image.DecodeN(path, BITMAP_PIXEL_FORMAT_ARGB8888);
+   outfile.Write(path + L"\n");
+   Draw();
+   timer.Start(5000);
 }

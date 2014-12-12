@@ -1,5 +1,5 @@
 src/BasicApp.d: ../src/BasicApp.cpp \
-  C:\Users\yeji\workspace\Basic\inc\BasicApp.h \
+  C:\Users\yeji\Desktop\Basic\ (2)\inc\BasicApp.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FApp.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FAppTypes.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FBaseString.h \
@@ -171,7 +171,7 @@ src/BasicApp.d: ../src/BasicApp.cpp \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FSysDeviceManager.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FSysIDeviceEventListener.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FSysEnvironment.h \
-  C:\Users\yeji\workspace\Basic\inc\BasicAppFrame.h \
+  C:\Users\yeji\Desktop\Basic\ (2)\inc\BasicAppFrame.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUi.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUiAccessibilityContainer.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUiAccessibilityTypes.h \
@@ -476,7 +476,7 @@ src/BasicApp.d: ../src/BasicApp.cpp \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUiTouchEffect.h \
   C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUiTouchEffectTypes.h
 
-C:\Users\yeji\workspace\Basic\inc\BasicApp.h:
+C:\Users\yeji\Desktop\Basic\ (2)\inc\BasicApp.h:
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FApp.h:
 
@@ -820,7 +820,7 @@ C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FSysEnvironment.h:
 
-C:\Users\yeji\workspace\Basic\inc\BasicAppFrame.h:
+C:\Users\yeji\Desktop\Basic\ (2)\inc\BasicAppFrame.h:
 
 C:/tizen-sdk/platforms/tizen2.2/rootstraps/tizen-emulator-2.2.native/usr/include/osp\FUi.h:
 
